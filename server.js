@@ -1,3 +1,14 @@
+/*********************************************************************************
+* BTI325 – Assignment 04
+* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
+* of this assignment has been copied manually or electronically from any other source
+* (including 3rd party web sites) or distributed to other students.
+*
+* Name: _______________CHENGHAO HU_______ Student ID: _____149773228_________ Date: ________11-12-2024________
+*
+* Online (Vercel) Link: _________________bti-325-a4-3qxaeprbl-garyhus-projects.vercel.app_______________________________________
+*
+********************************************************************************/
 const express = require('express');
 const blogData = require('./blog-service');
 const multer = require('multer');
@@ -104,11 +115,11 @@ app.get('/blog/:id', (req, res) => {
 
   blogData.getPostById(req.params.id)
     .then(post => {
-      viewData.post = post; // Current post
-      return blogData.getPublishedPosts(); // Get all published posts
+      viewData.post = post; 
+      return blogData.getPublishedPosts(); 
     })
     .then(posts => {
-      viewData.posts = posts.filter(p => p.id != req.params.id); // Exclude the current post
+      viewData.posts = posts.filter(p => p.id != req.params.id); 
       res.render('blog', viewData);
     })
     .catch(err => {
