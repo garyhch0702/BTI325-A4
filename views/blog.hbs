@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-8">
+        {{#if post}}
+        <h2>{{post.title}}</h2>
+        <p><strong>Date:</strong> {{post.postDate}}</p>
+        <p><strong>Category:</strong> {{post.category}}</p>
+        <img src="{{post.featureImage}}" alt="Feature Image" class="img-responsive">
+        <p>{{post.body}}</p>
+        {{else}}
+        <p>No posts available.</p>
+        {{/if}}
+    </div>
+    <div class="col-md-4">
+        <h3>Other Posts</h3>
+        <ul>
+            {{#each posts}}
+            <li>
+                <a href="/blog/{{id}}">{{title}}</a>
+                <p><strong>Category:</strong> {{category}}</p>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

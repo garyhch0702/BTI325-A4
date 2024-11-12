@@ -1,0 +1,93 @@
+[
+	{
+	  "id": 1,
+	  "title": "The Rise of Artificial Intelligence",
+	  "postDate": "2024-01-01",
+	  "category": 1,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Artificial+Intelligence",
+	  "body": "Artificial Intelligence (AI) is revolutionizing industries by automating processes, improving decision-making, and creating new opportunities. Learn how AI is shaping the future of technology.",
+	  "published": true
+	},
+	{
+	  "id": 2,
+	  "title": "Top 5 Gaming Trends in 2024",
+	  "postDate": "2024-02-15",
+	  "category": 2,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Gaming+Trends",
+	  "body": "From cloud gaming to virtual reality, discover the latest trends that are defining the gaming industry in 2024.",
+	  "published": true
+	},
+	{
+	  "id": 3,
+	  "title": "Sustainable Fashion: A New Era",
+	  "postDate": "2024-03-01",
+	  "category": 3,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Sustainable+Fashion",
+	  "body": "Sustainable fashion is gaining traction as consumers demand ethical and eco-friendly options. Here's how brands are responding to this shift.",
+	  "published": true
+	},
+	{
+	  "id": 4,
+	  "title": "The Importance of Lifelong Learning",
+	  "postDate": "2024-03-10",
+	  "category": 4,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Lifelong+Learning",
+	  "body": "Lifelong learning is critical in an ever-changing world. Discover how continuous education can enhance your personal and professional life.",
+	  "published": true
+	},
+	{
+	  "id": 5,
+	  "title": "Top 10 Wellness Tips for 2024",
+	  "postDate": "2024-04-05",
+	  "category": 5,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Wellness+Tips",
+	  "body": "From mindfulness to physical fitness, explore the top wellness tips to improve your health and well-being in 2024.",
+	  "published": true
+	},
+	{
+	  "id": 6,
+	  "title": "Breaking Down Quantum Computing",
+	  "postDate": "2024-05-01",
+	  "category": 1,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Quantum+Computing",
+	  "body": "Quantum computing promises to solve complex problems that traditional computers can't handle. Learn the basics and its potential applications.",
+	  "published": false
+	},
+	{
+	  "id": 7,
+	  "title": "The Evolution of Esports",
+	  "postDate": "2024-06-12",
+	  "category": 2,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Esports+Evolution",
+	  "body": "Esports has grown from a niche activity to a global phenomenon. Find out how it's transforming the entertainment industry.",
+	  "published": true
+	},
+	{
+	  "id": 8,
+	  "title": "Ethical Fashion: Beyond Trends",
+	  "postDate": "2024-07-20",
+	  "category": 3,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Ethical+Fashion",
+	  "body": "Ethical fashion is not just a trend but a movement. Learn how consumers and brands are driving meaningful change in the fashion world.",
+	  "published": false
+	},
+	{
+	  "id": 9,
+	  "title": "Embracing Online Learning",
+	  "postDate": "2024-08-15",
+	  "category": 4,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Online+Learning",
+	  "body": "Online learning is becoming a key part of education. Explore its benefits, challenges, and how to make the most of it.",
+	  "published": true
+	},
+	{
+	  "id": 10,
+	  "title": "Achieving Work-Life Balance",
+	  "postDate": "2024-09-05",
+	  "category": 5,
+	  "featureImage": "https://via.placeholder.com/847x320.png?text=Work-Life+Balance",
+	  "body": "Struggling with work-life balance? Discover practical strategies to create harmony between your personal and professional life.",
+	  "published": false
+	}
+  ]
+  

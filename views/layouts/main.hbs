@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <span class="navbar-brand">BTI325 - Chenghao Hu</span>
+            </div>
+            <ul class="nav navbar-nav">
+                {{#navLink "/about"}}About{{/navLink}}
+                {{#navLink "/posts"}}Posts{{/navLink}}
+                {{#navLink "/categories"}}Categories{{/navLink}}
+                {{#navLink "/blog"}}Blog{{/navLink}}
+                {{#navLink "/posts/add"}}Add Post{{/navLink}}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        {{{body}}}
+    </div>
+
+    <footer class="text-center">
+        <p>© 2024 Chenghao Hu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
